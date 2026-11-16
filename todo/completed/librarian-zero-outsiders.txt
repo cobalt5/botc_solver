@@ -1,0 +1,4 @@
+Add a case for the Librarian seeing that no outsiders are in play.
+
+STATUS: resolved in situations.md ("A claims Librarian, sees zero
+Outsiders" row added; the existing row renamed to "sees B or C is Outsider R").

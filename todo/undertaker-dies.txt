@@ -1,0 +1,2 @@
+The undertaker only see's a role if someone is executed AND died from the execution
+Modify the undertaker claim statements in situations.md to account for this

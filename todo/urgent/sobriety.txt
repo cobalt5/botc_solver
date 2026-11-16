@@ -20,3 +20,8 @@ List every cause of drunkenness and poisoning on the script, since the
 "<->" means a player is sober unless one of them applies. On Trouble
 Brewing: the Drunk and the Poisoner. On other scripts, more roles cause
 this (e.g. Sailor, Innkeeper, Courtier, No Dashii, Vortox).
+
+STATUS: partly resolved in situations.md. Afflicts and Active predicates,
+the set S of not-sober sources, "Sober unless afflicted", caps, and a new
+Role Invariants section with the Drunk and Poisoner. Other scripts' sources
+are drafted in sobriety-draft.md.

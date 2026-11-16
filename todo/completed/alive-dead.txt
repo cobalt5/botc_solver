@@ -11,9 +11,13 @@ were worked out by hand:
 
 CHANGE (situations.md)
 Add Alive(A, t) and Died(A, t), plus rules linking them:
-    Executed(A, t) -> not Alive(A, (t+1, 1))
     death at (t, k) -> not Alive(A, next(t, k))
     not Alive stays not Alive (until revived, which Trouble Brewing never does)
+    Alive stays alive (until killed (not that execution doesn't necesarily mean death))
 Then rewrite the Empath row's "nearest alive neighbours" as a formal
 condition, and condition the Ravenkeeper row on Died(A, (t, k)) for some
 k < k_Ravenkeeper. Needs next() from role-persistence.txt.
+
+STATUS: resolved in situations.md (Alive, Died, Neighbour, life/death
+invariants, Empath and Ravenkeeper rows). Game-end rules (D not the Imp
+because the game continued) are not covered here.

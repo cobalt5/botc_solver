@@ -12,3 +12,6 @@ Add after the "Let T, O, M, D ..." line:
     and $\mathcal{G} = \{\text{Townsfolk}, \text{Outsider}, \text{Minion}, \text{Demon}\}$.
 "One modifier per role and type" and "Modifiers default to zero" together
 guarantee that d exists and is unique.
+
+STATUS: resolved in situations.md (delta(R, G) and the type set G defined
+in the Structural Invariants intro).

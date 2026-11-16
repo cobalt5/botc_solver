@@ -1,0 +1,8 @@
+A spy can register as evil even if sober. Also a spy/recluse needs to register as good XOR evil at a single time
+(meaning spy cannot be between two evil and chef gets a 1)
+
+STATUS: resolved in situations.md. A sober Spy registering as Evil was
+already allowed. Added "Every player registers as exactly one alignment"
+(Registers(A, Good, t) XOR Registers(A, Evil, t)); since registration is a
+single value per ability time, a Spy between two evil players gives the
+Chef 0 or 2, never 1.

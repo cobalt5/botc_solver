@@ -18,3 +18,6 @@ Replace "for all pairs of neighbours (B, C) not including the chef" with
 formally:
     sum over adjacent (B, C) of
         [Registers(B, Evil, (1, k_Chef)) and Registers(C, Evil, (1, k_Chef))] = N
+
+STATUS: resolved in situations.md (Chef row now sums over every adjacent
+pair (B, cw^1(B)), including pairs with the Chef).
