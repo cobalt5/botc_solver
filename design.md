@@ -9,8 +9,7 @@
 ### Assumptions
 1. All players of good alignment are honest. In a normal game, this means that it is the last day.
 2. As an extension of 1. There is no Politician in play, or there is a politician who aims to work for Good.
-3. As an extension of 1. There is no Damsel in play, or there is a Damsel in play but all minions are dead/skeptical.
-4. No travelers, Lorics, Fabled, etc.
+3. No travelers, Lorics, Fabled, etc.
 
 ### Implementation
 
